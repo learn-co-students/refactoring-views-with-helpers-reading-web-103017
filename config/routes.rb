@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :ors
   get 'authors/show'
 
   get 'test/index'
